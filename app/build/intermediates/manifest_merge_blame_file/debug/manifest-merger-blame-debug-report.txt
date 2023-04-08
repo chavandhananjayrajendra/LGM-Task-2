@@ -1,0 +1,91 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.chavan.task2LGM"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="23"
+8-->C:\Users\sachi\Downloads\Face_Detector-main\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="30" />
+9-->C:\Users\sachi\Downloads\Face_Detector-main\app\src\main\AndroidManifest.xml
+10
+11    <application
+11-->C:\Users\sachi\Downloads\Face_Detector-main\app\src\main\AndroidManifest.xml:5:5-29:19
+12        android:allowBackup="true"
+12-->C:\Users\sachi\Downloads\Face_Detector-main\app\src\main\AndroidManifest.xml:6:9-35
+13        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+13-->[androidx.core:core:1.5.0] C:\Users\sachi\.gradle\caches\transforms-2\files-2.1\385b999f0d75cdd9ae9f7513bd022662\core-1.5.0\AndroidManifest.xml:24:18-86
+14        android:debuggable="true"
+15        android:icon="@drawable/img"
+15-->C:\Users\sachi\Downloads\Face_Detector-main\app\src\main\AndroidManifest.xml:7:9-37
+16        android:label="@string/app_name"
+16-->C:\Users\sachi\Downloads\Face_Detector-main\app\src\main\AndroidManifest.xml:8:9-41
+17        android:roundIcon="@drawable/img"
+17-->C:\Users\sachi\Downloads\Face_Detector-main\app\src\main\AndroidManifest.xml:9:9-42
+18        android:supportsRtl="true"
+18-->C:\Users\sachi\Downloads\Face_Detector-main\app\src\main\AndroidManifest.xml:10:9-35
+19        android:testOnly="true"
+20        android:theme="@style/AppTheme" >
+20-->C:\Users\sachi\Downloads\Face_Detector-main\app\src\main\AndroidManifest.xml:11:9-40
+21        <activity
+21-->C:\Users\sachi\Downloads\Face_Detector-main\app\src\main\AndroidManifest.xml:12:9-20:20
+22            android:name="com.chavan.task2LGM.SplashScreen"
+22-->C:\Users\sachi\Downloads\Face_Detector-main\app\src\main\AndroidManifest.xml:13:13-41
+23            android:exported="true" >
+23-->C:\Users\sachi\Downloads\Face_Detector-main\app\src\main\AndroidManifest.xml:14:13-36
+24            <intent-filter>
+24-->C:\Users\sachi\Downloads\Face_Detector-main\app\src\main\AndroidManifest.xml:15:13-19:29
+25                <action android:name="android.intent.action.MAIN" />
+25-->C:\Users\sachi\Downloads\Face_Detector-main\app\src\main\AndroidManifest.xml:16:17-69
+25-->C:\Users\sachi\Downloads\Face_Detector-main\app\src\main\AndroidManifest.xml:16:25-66
+26
+27                <category android:name="android.intent.category.LAUNCHER" />
+27-->C:\Users\sachi\Downloads\Face_Detector-main\app\src\main\AndroidManifest.xml:18:17-77
+27-->C:\Users\sachi\Downloads\Face_Detector-main\app\src\main\AndroidManifest.xml:18:27-74
+28            </intent-filter>
+29        </activity>
+30        <activity
+30-->C:\Users\sachi\Downloads\Face_Detector-main\app\src\main\AndroidManifest.xml:21:9-24:20
+31            android:name="com.chavan.task2LGM.MainActivity"
+31-->C:\Users\sachi\Downloads\Face_Detector-main\app\src\main\AndroidManifest.xml:21:19-47
+32            android:exported="false" >
+32-->C:\Users\sachi\Downloads\Face_Detector-main\app\src\main\AndroidManifest.xml:22:13-37
+33        </activity>
+34
+35        <meta-data
+35-->C:\Users\sachi\Downloads\Face_Detector-main\app\src\main\AndroidManifest.xml:26:9-28:57
+36            android:name="preloaded_fonts"
+36-->C:\Users\sachi\Downloads\Face_Detector-main\app\src\main\AndroidManifest.xml:27:13-43
+37            android:resource="@array/preloaded_fonts" />
+37-->C:\Users\sachi\Downloads\Face_Detector-main\app\src\main\AndroidManifest.xml:28:13-54
+38
+39        <activity
+39-->[com.google.android.gms:play-services-base:15.0.1] C:\Users\sachi\.gradle\caches\transforms-2\files-2.1\d65fc344d6897428a1970248f9620738\jetified-play-services-base-15.0.1\AndroidManifest.xml:23:9-26:75
+40            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+40-->[com.google.android.gms:play-services-base:15.0.1] C:\Users\sachi\.gradle\caches\transforms-2\files-2.1\d65fc344d6897428a1970248f9620738\jetified-play-services-base-15.0.1\AndroidManifest.xml:24:13-79
+41            android:exported="false"
+41-->[com.google.android.gms:play-services-base:15.0.1] C:\Users\sachi\.gradle\caches\transforms-2\files-2.1\d65fc344d6897428a1970248f9620738\jetified-play-services-base-15.0.1\AndroidManifest.xml:25:13-37
+42            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+42-->[com.google.android.gms:play-services-base:15.0.1] C:\Users\sachi\.gradle\caches\transforms-2\files-2.1\d65fc344d6897428a1970248f9620738\jetified-play-services-base-15.0.1\AndroidManifest.xml:26:13-72
+43
+44        <provider
+44-->[com.google.firebase:firebase-common:16.0.0] C:\Users\sachi\.gradle\caches\transforms-2\files-2.1\f7ebaa90603e34802b6e1b593b1f4290\jetified-firebase-common-16.0.0\AndroidManifest.xml:9:9-13:39
+45            android:name="com.google.firebase.provider.FirebaseInitProvider"
+45-->[com.google.firebase:firebase-common:16.0.0] C:\Users\sachi\.gradle\caches\transforms-2\files-2.1\f7ebaa90603e34802b6e1b593b1f4290\jetified-firebase-common-16.0.0\AndroidManifest.xml:10:13-77
+46            android:authorities="com.chavan.task2LGM.firebaseinitprovider"
+46-->[com.google.firebase:firebase-common:16.0.0] C:\Users\sachi\.gradle\caches\transforms-2\files-2.1\f7ebaa90603e34802b6e1b593b1f4290\jetified-firebase-common-16.0.0\AndroidManifest.xml:11:13-72
+47            android:exported="false"
+47-->[com.google.firebase:firebase-common:16.0.0] C:\Users\sachi\.gradle\caches\transforms-2\files-2.1\f7ebaa90603e34802b6e1b593b1f4290\jetified-firebase-common-16.0.0\AndroidManifest.xml:12:13-37
+48            android:initOrder="100" />
+48-->[com.google.firebase:firebase-common:16.0.0] C:\Users\sachi\.gradle\caches\transforms-2\files-2.1\f7ebaa90603e34802b6e1b593b1f4290\jetified-firebase-common-16.0.0\AndroidManifest.xml:13:13-36
+49
+50        <meta-data
+50-->[com.google.android.gms:play-services-basement:15.0.1] C:\Users\sachi\.gradle\caches\transforms-2\files-2.1\4f721651c7fdda60245219a69637e450\jetified-play-services-basement-15.0.1\AndroidManifest.xml:23:9-25:69
+51            android:name="com.google.android.gms.version"
+51-->[com.google.android.gms:play-services-basement:15.0.1] C:\Users\sachi\.gradle\caches\transforms-2\files-2.1\4f721651c7fdda60245219a69637e450\jetified-play-services-basement-15.0.1\AndroidManifest.xml:24:13-58
+52            android:value="@integer/google_play_services_version" />
+52-->[com.google.android.gms:play-services-basement:15.0.1] C:\Users\sachi\.gradle\caches\transforms-2\files-2.1\4f721651c7fdda60245219a69637e450\jetified-play-services-basement-15.0.1\AndroidManifest.xml:25:13-66
+53    </application>
+54
+55</manifest>
